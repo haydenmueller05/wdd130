@@ -1,10 +1,17 @@
+/* *{
+    border:1px solid white;
+} */
+div{
+    max-width:1600px;
+
+}
 a {
     background-color: lightblue;
     color: rgb(71,69,69);
     text-decoration:none;
     padding: 10px;
     margin: 5px;
-    width:290px;
+    width:30%;
     text-align: center;
     display:inline-block;
     background-color: crimson;
@@ -13,27 +20,40 @@ a {
     margin-right:auto;
   
 }
-
-.banner1{
+/*nav{    
+    display:flex;
+    justify-content: center;
+} */
+a:hover{
+    background-color:rgb(210, 58, 89);
+    color:white
+}
+h1{
+    font-size:1.5em;
+}
+/*.banner1{
+    width:380px;
     margin-left:auto;
     float:left;
 }
 .banner2{
+    width:380px;
     margin-right:auto;
     float:right;
 }
-
+*/
 .emphasis{
     background-color: crimson;
     padding:10px;
-    margin:5px;
+    margin:10px;
     color: white;
-    width:600px;
+    width:40%;
     text-align: center;
     margin-left:auto;
     margin-right:auto;
 }
 img{
+    width:40%;
     background-color: crimson;
     margin: 5px;
     padding: 10px;
@@ -47,4 +67,11 @@ body{
     color:white;
     text-align:center;
     
+}
+footer p{
+    background-color: crimson;
+    padding:10px;
+    margin:10px;
+    width:100%;
+    text-align:center;
 }
