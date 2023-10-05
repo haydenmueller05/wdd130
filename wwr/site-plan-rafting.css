@@ -108,6 +108,9 @@ nav  {
   list-style-type: none;
   display: flex;
 }
+.home-grid{
+  text-align: center;
+}
 nav a {
   padding:1em;
   min-width: 120px;

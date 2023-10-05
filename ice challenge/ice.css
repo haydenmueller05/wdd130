@@ -1,0 +1,19 @@
+img{
+    width: 20%;
+
+}
+header:hover{
+    color:black;
+}
+header{
+    color:white;
+    font-size:2em;
+
+}
+body{
+    background-color: pink;
+}
+#Quote{
+    color: white;
+    text-align: center;
+}
