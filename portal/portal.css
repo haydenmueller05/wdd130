@@ -1,49 +1,37 @@
 /* *{
     border:1px solid white;
 } */
-div{
-    max-width:1600px;
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
+
+div{
+    margin: 0 auto;
+    max-width:1600px;
+    background-color: lightblue;
 }
 a {
     background-color: lightblue;
     color: rgb(71,69,69);
     text-decoration:none;
     padding: 10px;
-    margin: 5px;
     width:30%;
-    text-align: center;
-    display:inline-block;
-    background-color: crimson;
+    background-color: rgb(76, 183, 218);
     color:white;
-    margin-left:auto;
-    margin-right:auto;
-  
 }
-/*nav{    
+#primary{    
+    text-align: center;
     display:flex;
     justify-content: center;
-} */
+}
 a:hover{
-    background-color:rgb(210, 58, 89);
+    background-color:rgb(98, 189, 219);
     color:white
 }
 h1{
     font-size:1.5em;
 }
-/*.banner1{
-    width:380px;
-    margin-left:auto;
-    float:left;
-}
-.banner2{
-    width:380px;
-    margin-right:auto;
-    float:right;
-}
-*/
 .emphasis{
-    background-color: crimson;
+    background-color: rgb(76, 183, 218);
     padding:10px;
     margin:10px;
     color: white;
@@ -54,24 +42,29 @@ h1{
 }
 img{
     width:40%;
-    background-color: crimson;
+    background-color: rgb(76, 183, 218);
     margin: 5px;
     padding: 10px;
 }
 head{
-    background-color: crimson;
+    background-color: rgb(76, 183, 218);
     
 }
 body{
-    background: rgb(179, 13, 46);
+    
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family:'Carter One';
     color:white;
     text-align:center;
     
 }
 footer p{
-    background-color: crimson;
+    background-color: rgb(76, 183, 218);
     padding:10px;
     margin:10px;
-    width:100%;
+    width:98.7%;
     text-align:center;
+    margin:0 auto;
 }

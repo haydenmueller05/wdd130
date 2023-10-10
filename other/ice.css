@@ -1,0 +1,23 @@
+div{
+    max-width: 1600px;
+    background-color: rgb(99, 99, 99);
+    text-align: center;
+    margin:auto;    
+}
+
+#circles img{
+    margin:0px;
+    text-align: center;
+    width: 100%;
+}
+#images img{
+    border-radius: 50%;
+    background-color: rgb(73, 73, 73);
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 80px;
+    width: 20   %;
+}
+body{
+    margin:0px;
+}
