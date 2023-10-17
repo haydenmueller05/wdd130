@@ -7,15 +7,14 @@
 div{
     margin: 0 auto;
     max-width:1600px;
-    background-color: lightblue;
+    background-color: #0f0f0f;
 }
 a {
-    background-color: lightblue;
     color: rgb(71,69,69);
     text-decoration:none;
     padding: 10px;
     width:30%;
-    background-color: rgb(76, 183, 218);
+    background-color: #272727;
     color:white;
 }
 #primary{    
@@ -24,14 +23,14 @@ a {
     justify-content: center;
 }
 a:hover{
-    background-color:rgb(98, 189, 219);
+    background-color:#3f3f3f;
     color:white
 }
 h1{
     font-size:1.5em;
 }
 .emphasis{
-    background-color: rgb(76, 183, 218);
+    background-color: #272727;
     padding:10px;
     margin:10px;
     color: white;
@@ -42,12 +41,12 @@ h1{
 }
 img{
     width:40%;
-    background-color: rgb(76, 183, 218);
+    background-color: #272727;
     margin: 5px;
     padding: 10px;
 }
 head{
-    background-color: rgb(76, 183, 218);
+    background-color: #272727;
     
 }
 body{
@@ -61,7 +60,7 @@ body{
     
 }
 footer p{
-    background-color: rgb(76, 183, 218);
+    background-color: #272727;
     padding:10px;
     margin:10px;
     width:98.7%;
