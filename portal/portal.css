@@ -7,7 +7,7 @@
 div{
     margin: 0 auto;
     max-width:1600px;
-    background-color: #0f0f0f;
+    background-color: #1b1a19;
 }
 a {
     color: rgb(71,69,69);
@@ -45,15 +45,10 @@ img{
     margin: 5px;
     padding: 10px;
 }
-head{
-    background-color: #272727;
-    
-}
 body{
-    
     margin: 0px;
     padding: 0px;
-    background-color: white;
+    background-color:#1b1a19;
     font-family:'Carter One';
     color:white;
     text-align:center;
