@@ -5,10 +5,32 @@ body{
     font-family: "copperplate", serif;
     font-weight: 700;
     font-style: normal;
-    font-size:2em;
     background-color: black;
 }
 nav a{
     color:white;
     text-decoration: none;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height:100px;
+}
+
+header a{
+    text-decoration:none;
+}
+
+#nav_bar a{
+    /* font-size: 0.5em; */
+    margin:10px;
+    padding:10px;
+}
+h1{
+    font-size:5em;
+}
+#socials img{
+    width:50px;
+    margin:10px;
 }
