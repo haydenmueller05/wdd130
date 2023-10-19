@@ -15,6 +15,7 @@ header{
     display:flex;
     justify-content:space-between;
     align-items: center;
+    
     height:100px;
 }
 
@@ -23,14 +24,17 @@ header a{
 }
 
 #nav_bar a{
-    /* font-size: 0.5em; */
+    font-size: 1em; 
     margin:10px;
-    padding:10px;
 }
-h1{
+header h1{
     font-size:5em;
 }
 #socials img{
     width:50px;
     margin:10px;
+}
+#cover h1{
+    text-align:center;
+    font-size: 5em;
 }
