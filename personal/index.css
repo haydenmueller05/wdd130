@@ -1,0 +1,14 @@
+@import url("https://use.typekit.net/vpq2oof.css");
+
+body{
+    color:white;
+    font-family: "copperplate", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:2em;
+    background-color: black;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
