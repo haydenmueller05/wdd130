@@ -6,6 +6,8 @@ body{
     font-weight: 700;
     font-style: normal;
     background-color: black;
+    max-width:1600px;
+    margin:auto;
 }
 nav a{
     color:white;
@@ -15,7 +17,6 @@ header{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    
     height:100px;
 }
 
