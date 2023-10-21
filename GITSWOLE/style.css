@@ -1,43 +1,55 @@
 @import url("https://use.typekit.net/kqc7wcd.css");
 
-
+    
 /*body for whole page*/
 body{
     background-color:#272727;
     color:white;
     font-family: "ff-nexus-typewriter", sans-serif;
-    max-width:1600px;
-    margin:auto;    
+    max-width:1600px; 
+    margin:0 auto;
+}
+
+
+.main{
+    margin-top:100px;
+}
+#navigation{
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:#272727;   
+    
 }
 
 
 /*Header*/
-
 header{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    height:100px;
+    height:105px;
+    width:100%;
 }
 
 header a{
     text-decoration:none;
     color:white;
+    align-items: center;
 }
+
+
+
+
 
 /*GitSwole header*/
-#header h1{
-    font-family: "ff-nexus-typewriter", sans-serif;
-}
-
 #header{
     font-size:5em;
     text-decoration: none;
 }
 
-#header{
-    width:600px;
-}
+/*fix*/
+
 
 
 nav a{
@@ -54,6 +66,8 @@ nav a{
 hr{
     height:3px;
     background-color: white;
+    width:100%;
+    margin:0;
 }
 
 /*Socials on left side of navigation*/
@@ -69,40 +83,56 @@ hr{
 }
 
 
+
+
 /*Purpose tab below navigation*/
 .message{
-    height:500px;
-    font-size:2em;
+    margin-top:30px;
+    font-size:1.5em;
+    margin-right:200px;  
+    height:350px;  
 }
 
 .purpose{
+    margin-top:0;
+    margin-bottom:0;
     text-align:center;
     font-size:6em;
-    margin:0px;
 }
 
 .us{
-    width:300px;
-    margin: 30px;
-    float:left;
+    width:20%;
+    margin-top:0;
     background-color: white;
     padding:5px;
+    float:left;
+    margin:30px;  
+    margin-left:200px;  
+    margin-bottom:40px;
 }
 
+
+
+
+
+
+
 /*Tracker */
-
-
-.Tracker{
+.Tracker{   
     text-align: center;
     font-size:5em;
     margin:0;
 }
 .tracker-pic{
+    width:20%;
     margin-top:0;
     background-color: white;
     padding:5px;
     float:right;
-    margin:30px;    
+    margin:30px;  
+    margin-right:200px;  
+    margin-bottom:0;
+    
 }
 #tracker p{
     margin:0 auto;
@@ -112,10 +142,10 @@ hr{
     margin-left:40px;
     font-size:1.5em;
     margin-left:200px;  
-    height:350px;     
+    height:350px;    
 }
 #button-box{
-    text-align: center;
+    text-align: center  ;
     margin-top: 40px;
     margin-bottom:40px;
 }
@@ -129,23 +159,33 @@ hr{
     
 }
 
-/*Calculator*/
 
+
+
+
+
+
+
+/*Calculator*/
 .Calculator{
     text-align: center;
     font-size:5em;
     margin:0;
 }
 .calculator-info{
-    font-size:2em;
-    margin:20px;    
+    margin-top:30px;
+    font-size:1.5em;
+    margin-right:200px;  
+    height:350px;    
 }
 .calculator-pic{ 
-        margin-top:0;
-        background-color: white;
-        padding:5px;
-        float:left;
-        margin:30px;
+    background-color: white;
+    padding:5px;
+    float:left;
+    margin:30px;
+    margin-left:200px;
+    margin-top:30px;
+    margin-bottom:0;
 }
 #button-box2{
     text-align: center;
@@ -160,9 +200,43 @@ hr{
     border-radius: 5px;
     
 }
+
+
+
+
+
+/*Footer*/
+footer a{
+    color:white;
+    text-decoration:none;
+}
 footer{
     display:flex;
     justify-content:space-between;
     align-items: center;
     height:100px;
+    
+}
+/*fix*/
+#footer{
+    width:650px;
+}
+.footer{
+    font-size:8em;
+    
+}
+#footer-info{
+    line-height: 30px;
+}
+#footer-info{
+    margin-top:20px;
+    width:6%;
+    margin-left: 50px;
+    
+}
+
+#footer-contact{
+    line-height: 30px;
+    margin-top:20px;
+    margin-right:50px;
 }

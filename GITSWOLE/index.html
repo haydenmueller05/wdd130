@@ -3,80 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Swole | Home Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>gitSwole | Home </title>
+    <link rel="stylesheet" href="index.css">
     
 </head>
 <body>
     <header>
-        <nav id="nav_bar">
-            <a class="course" href="#">TRACKER</a>
-            <a class="calc" href="calc.html">CALCULATOR</a>
-            <a class="about" href="#">ABOUT</a>
-            <a class="contact" href="#">CONTACT</a>
-        </nav> 
-        <a id="header" href="index.html">gitSWOLE</a>
-        <div id="socials">
-            <a class="facebook" href="#"><img src="images/images/facebook.png" alt="facebook images"> </a>
-            <a class="email" href="#"><img src="images/images/email.png" alt="email image"> </a>    
-            <a class="facebook" href="#"><img src="images/images/account.png" alt="facebook images"> </a>
-           
-        </div>
+        <div class="navbar">
+            <div class="dropdown">
+              <button class="dropbtn"><img class="swole-img" src="images/images/swole.png" alt="swole">
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Home</a>
+                <a href="#">Tracker</a>
+                <a href="#">Calculator</a>
+                <a href="#">About us</a>
+                <a href="#">Profile</a>
+              </div>
+            </div>
+            <p class="header">gitSWOLE</p>
+          </div>
     </header>
-    <hr>    
-    <main>
-        <div id="Purpose">
-            <p class ="purpose">Our Purpose</p>
-            <img class ="us" src="images/images/us.jpg" alt="facebook images">
-            <p class = "message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-        </div>
-
-        <div id="Tracker">
-            <section id="Tracker-box">
+    <main class="main">
+        <div class="purpose">
+            <div class="purpose-box">
                 <hr>
-                <p class="Tracker">Tracker</p>
+                <p class="box-text">Our purpose</p>
                 <hr>
-            </section>
-            <section id="tracker-pic">
-                <img class="tracker-pic" src="https://loremflickr.com/300/350/" alt="tracker">
-            </section>
-            <section id ="tracker-info">
-                <p class ="tracker-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </section>
-            <div id="button-box">
-                <a class='tracker-box' href="tracker.html">Try Tracker</a>
+            </div>
+            <div class="info">
+                <div class="picture">
+                    <img class="us-pic" src="images/images/us.jpg" alt="us">
+                </div>
+                <div class="info-msg-box">
+                    <p class = "info-msg">Our purpose is to make an app for everyone to easily access information and tools to improve your physical health according to their own goals. Often the simplest calculations are typically pay walled by companies to make money from their customers. We however, offer those tools and resources for free. We believe that people shouldn’t have to pay to better their health and that these resources should be easily accessible.</p>
+                </div>
             </div>
         </div>
-        <div id="CALCULATOR ">
-            <section id="calculator-box">
+        <div class="tracker">
+            <div class="tracker-box">
                 <hr>
-                <p class="Calculator">Calculator</p>
+                <p class="box-text">Tracker</p>
                 <hr>
-            </section>
-            <section id="calculator-pic">
-                <img class="calculator-pic" src="https://loremflickr.com/300/350/" alt="calcualtor">
-            </section>
-            <section id="calculator-info">
-                <p class="calculator-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </section>
-            <div id="button-box2">
-                <a class='calculator-box' href="tracker.html">Try Calculator</a>
+            </div>
+            <div class="track-picture">
+                <img class="track-pic" src="images/images/us.jpg" alt="us">
+            </div>
+            <div class="tracker-msg-box">
+                <p class = "track-info-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+            <div id="tracker-button">
+                <a class='tracker-button' href="tracker.html">Try Tracker</a>
+            </div>
+        </div>
+        <div class="calculator">
+            <div class="calculator-box">
+                <hr>
+                <p class="box-text">Calculator</p>
+                <hr>
+            </div>
+            <div class="calc-info">
+                <div class="calculator-pic">
+                    <img class="calc-pic" src="images/images/us.jpg" alt="us">
+                </div>
+                <div class="calculator-msg-box">
+                    <p class = "calc-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+            </div>
+            <div id="calculator-button">
+                <a class='calculator-button' href="calculator.html">Try Calculator</a>
             </div>
         </div>
     </main>
     <hr>
     <footer>
         
-        <section>
-            <a class="about" href="#">ABOUT</a>
-            <a class="contact" href="#">CONTACT</a>
-        </section>
-        <section>
-            <a id="header" href="index.html">gitSWOLE</a>
-        </section>
-        <section>
-
-        </section>
+        <div class="footer-left">
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="#">Profile</a>
+        </div>
+        <div class="footer-middle">
+            <p class="header">gitSWOLE</p>
+        </div>
+        <div class="footer-right">
+            <p>Copyright</p>
+            <p>Copyright</p>
+            <p>Copyright</p>
+        </div>
     </footer>
 </body>
 </html>
