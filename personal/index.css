@@ -1,45 +1,66 @@
-@import url("https://use.typekit.net/vpq2oof.css");
+/*    */
+@import url("https://use.typekit.net/jpw0pnj.css");
 
+
+
+
+/*Body, main,and html*/
 body{
-    color:white;
-    font-family: "copperplate", serif;
-    font-weight: 700;
-    font-style: normal;
-    background-color: black;
-    max-width:1600px;
-    margin:auto;
-}
-nav a{
+    background-color: #0f0f0f;
     color:white;
     text-decoration: none;
+    font-family: "copperplate", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin:0;
 }
-header{
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    height:100px;
-}
-
-header a{
-    text-decoration:none;
-}
-
-#nav_bar a{
-    font-size: 1em; 
-    margin:10px;
+hr{
+    width:101%;
+    height:2px;
+    background-color: white;
 }
 
-header h1{
-    font-size:5em;
-}
-#socials img{
-    width:50px;
-    margin:10px;
-}
-#cover h1{
-    text-align:center;
-    font-size: 20em;
+
+
+/*Footer*/
+
+.header{
+    font-size:2em;
 }
 #header{
-    width:460px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    height:100px;
+    flex-wrap: wrap;
+}
+#header a{
+    text-decoration: none;
+    color:white;
+}
+#nav_bar{
+    margin-left:1%;
+    width:14%;
+    line-height:25px;
+}
+#nav_bar a{
+  margin:5px;
+}
+#socials img{
+   width:50px;
+   text-align: center;
+   margin:5px;
+}
+#socials{
+    margin-right:1%;
+}
+
+
+
+
+
+/* Main page*/
+
+main{
+    text-align: center;
 }
