@@ -25,7 +25,7 @@ hr{
 /*Footer*/
 
 .header{
-    font-size:2em;
+    font-size:2em;   
 }
 #header{
     display:flex;
@@ -40,7 +40,7 @@ hr{
 }
 #nav_bar{
     margin-left:1%;
-    width:14%;
+    width:17%;
     line-height:25px;
 }
 #nav_bar a{
@@ -51,7 +51,8 @@ hr{
    text-align: center;
    margin:5px;
 }
-#socials{
+#socials{   
+    width:17%;
     margin-right:1%;
 }
 
