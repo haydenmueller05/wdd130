@@ -18,6 +18,7 @@ hr{
     width:101%;
     height:2px;
     background-color: white;
+    margin:0;
 }
 
 
@@ -46,14 +47,16 @@ hr{
 #nav_bar a{
   margin:5px;
 }
-#socials img{
+#account img{
    width:50px;
    text-align: center;
+   float:right;
    margin:5px;
 }
-#socials{   
+#account{   
     width:17%;
     margin-right:1%;
+    
 }
 
 
@@ -62,6 +65,8 @@ hr{
 
 /* Main page*/
 
-main{
+#cover{
+    margin:0 auto;
     text-align: center;
+    display:grid;
 }
