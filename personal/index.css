@@ -12,7 +12,9 @@ body{
     font-family: "copperplate", serif;
     font-weight: 300;
     font-style: normal;
-    margin:0;
+    margin:0 auto;
+    max-width: 1920px;
+    width: 100%;
 }
 hr{
     width:101%;
@@ -65,8 +67,21 @@ hr{
 
 /* Main page*/
 
-#cover{
+#cover-grid{
     margin:0 auto;
-    text-align: center;
     display:grid;
+    grid-template-columns: repeat;
+
+}
+#cover{
+    text-align: center;
+}
+#name{
+    font-size: 18vh;
+}
+#name h1{
+    margin:0;
+}
+#me img{
+    width:60%;
 }
