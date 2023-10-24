@@ -14,11 +14,10 @@ body{
     font-style: normal;
     margin:0 auto;
     max-width: 1920px;
-    width: 100%;
 }
 hr{
-    width:101%;
-    height:2px;
+    width:99.9%;
+    height:1%;
     background-color: white;
     margin:0;
 }
@@ -26,16 +25,19 @@ hr{
 
 
 /*Footer*/
-
+#header-text h1{
+    margin:0;
+    padding:0;
+}
 .header{
-    font-size:2em;   
+    font-size:1.6em;   
 }
 #header{
     display:flex;
     align-items: center;
     justify-content:space-between;
     height:100px;
-    flex-wrap: wrap;
+    
 }
 #header a{
     text-decoration: none;
@@ -67,21 +69,35 @@ hr{
 
 /* Main page*/
 
-#cover-grid{
-    margin:0 auto;
-    display:grid;
-    grid-template-columns: repeat;
-
-}
 #cover{
+    padding-top:5%;
     text-align: center;
 }
-#name{
-    font-size: 18vh;
+#cover-image img{
+    width:80%;
 }
-#name h1{
+
+/* About text */
+#about{
+    padding-top:2%;
+    padding-bottom:2%;
+}
+#about p{
     margin:0;
 }
-#me img{
-    width:60%;
+
+
+.a1{
+    font-size:2vw;
+}
+.a2, .a3, .a4
+{
+    font-size:3.5vw;
+}
+
+
+
+@media screen and (max-width:700px)
+{
+    
 }
