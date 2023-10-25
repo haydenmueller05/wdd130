@@ -74,7 +74,7 @@ hr{
     text-align: center;
 }
 #cover-image img{
-    width:80%;
+    width:60%;
 }
 
 /* About text */
@@ -88,16 +88,35 @@ hr{
 
 
 .a1{
-    font-size:2vw;
+    font-size:1vw;
 }
 .a2, .a3, .a4
 {
-    font-size:3.5vw;
+    font-size:2vw;
 }
 
 
 
 @media screen and (max-width:700px)
 {
+    #cover-image img{
+        width:80%;
+    }
+    .a1{
+        font-size:2vw;
+    }
+    .a2, .a3, .a4
+    {
+        font-size:3.5vw;
+    }
+    .about, .contact{
+        opacity:0;
+        position:relative;
+        top:-20vh;
+    }
     
+    .course{
+        position:relative;
+        top:4vh;
+    }
 }
