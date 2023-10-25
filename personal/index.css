@@ -50,6 +50,7 @@ hr{
 }
 #nav_bar a{
   margin:5px;
+  font-size:1.5vh;
 }
 #account img{
    width:50px;
@@ -109,14 +110,17 @@ hr{
     {
         font-size:3.5vw;
     }
+/*     
+    
     .about, .contact{
         opacity:0;
         position:relative;
         top:-20vh;
     }
-    
     .course{
         position:relative;
-        top:4vh;
-    }
+        top:3vh;
+    } 
+*/
+
 }
