@@ -50,7 +50,7 @@ hr{
 }
 #nav_bar a{
   margin:5px;
-  font-size:1.5vh;
+  font-size:1;
 }
 #account img{
    width:50px;
@@ -103,6 +103,10 @@ hr{
 
 @media screen and (max-width:700px)
 {
+    #nav_bar a{
+        margin:5px;
+        font-size:0.8em ;
+      }
     #cover-image img{
         width:80%;
     }
@@ -113,7 +117,7 @@ hr{
     {
         font-size:3.5vw;
     }
-
+    
 
 
 }
