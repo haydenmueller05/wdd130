@@ -24,7 +24,7 @@ hr{
 
 
 
-/*Footer*/
+/*Header*/
 #header-text h1{
     margin:0;
     padding:0;
@@ -78,6 +78,11 @@ hr{
     width:60%;
 }
 
+
+
+
+
+
 /* About text */
 #about{
     padding-top:2%;
@@ -89,17 +94,84 @@ hr{
 
 
 .a1{
-    font-size:1vw;
+    font-size:1em;
 }
 .a2, .a3, .a4
 {
-    font-size:2vw;
+    font-size:2em;
 }
 
-/* Exprience */
+
+
+
+
+
+
+/* Experience */
+
+/* TEXT PROPERTIES */
 #experience{
     text-align: center;
 }
+#experience h1{
+    font-size: 3em;
+    margin:0;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+#experience-info{
+    font-size:2vw;
+}
+#experience-info h3{
+    margin:0;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+/* CRUMBL */
+.crumbl{
+    font-size:1.5em;
+}
+.crumbl1{
+    margin:0;
+    font-size:0.8em;
+}
+
+/* CHIPOTLE */
+.chipotle{
+    font-size:1.5em;
+}
+.chipotle1{
+    margin:0;
+    font-size:0.8em;
+}
+
+/* BYUI */
+.BYUI{
+    font-size:1.5em;
+}
+.BYUI1{
+    margin:0;
+    font-size:0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:700px)
 {
