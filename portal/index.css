@@ -6,7 +6,7 @@
 
 div{
     margin: 0 auto;
-    max-width:1600px;
+    max-width:1920px;
     background-color: #1b1a19;
 }
 a {
@@ -58,7 +58,10 @@ footer p{
     background-color: #272727;
     padding:10px;
     margin:10px;
-    width:98.7%;
+    width:100%;
     text-align:center;
     margin:0 auto;
+    position:fixed;
+    bottom:0;
+    left:0;
 }
