@@ -115,12 +115,27 @@ hr{
 
 #aboutcontent{
     text-align: center;
+    margin-top:2%;
+    margin-bottom:2%;
 }
 .mepicture{
     width:20%;
+    padding:2px;
+    background-color: white;
+    float:left;
+    margin-left:20%;
+    margin-bottom:2%;
 }
-
-
+#abouttext{
+    margin-right:20%;
+    margin-left:42%;
+}
+#abouttext h1{
+    font-size:2.5em
+}
+#abouttext p{
+    font-size:1em;
+}
 
 
 
@@ -182,6 +197,8 @@ hr{
         margin:5px;
         font-size:0.8em ;
       }
+
+    /* Cover */
     #cover-image img{
         width:80%;
     }
@@ -192,6 +209,8 @@ hr{
     {
         font-size:3.5vw;
     }
+
+    /* Experience */
     .experiencehead{
         font-size:1.5em;
     }
@@ -199,7 +218,28 @@ hr{
         margin:0;
         font-size:0.8em;
     }
+
+    /* About */
+    .mepicture{
+        float:none;
+    }
+    .mepicture{
+        width:30%;
+        text-align: center;
+        margin-left:0;
+        margin-right:0;
+        margin-bottom:0;
+    }
+    #abouttext{
+        margin-right:5%;
+        margin-left:0%;
     
-
-
+    }
+    #abouttext h1{
+        margin:0; 
+    }
+    #abouttext p{
+        margin:0;
+    
+    }
 }
