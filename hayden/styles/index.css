@@ -85,8 +85,8 @@ hr{
 
 /* About text */
 #about{
-    padding-top:2%;
-    padding-bottom:2%;
+    margin-top:2%;
+    margin-bottom:2%;
 }
 #about p{
     margin:0;
@@ -101,24 +101,27 @@ hr{
     font-size:2em;
 }
 
-
-
+/* HEADER BOXES */
+#head-box h1{
+    font-size: 3em;
+    margin:0;
+    margin-top:1%;
+    margin-bottom:1%;
+    text-align: center;
+}
 
 
 
 
 /* Experience */
 
+
 /* TEXT PROPERTIES */
 #experience{
     text-align: center;
+    margin-bottom:2;
 }
-#experience h1{
-    font-size: 3em;
-    margin:0;
-    margin-top:1%;
-    margin-bottom:1%;
-}
+
 
 #experience-info h3{
     margin:0;
@@ -126,32 +129,16 @@ hr{
     margin-bottom:1%;
 }
 
-/* CRUMBL */
-.crumbl{
-    font-size:1.5em;
+/* EXPERIENCE INFO*/
+.experiencehead{
+    font-size:2.5em;
 }
-.crumbl1{
+.experiencetext{
     margin:0;
-    font-size:0.8em;
+    font-size:1.5em;
+
 }
 
-/* CHIPOTLE */
-.chipotle{
-    font-size:1.5em;
-}
-.chipotle1{
-    margin:0;
-    font-size:0.8em;
-}
-
-/* BYUI */
-.BYUI{
-    font-size:1.5em;
-}
-.BYUI1{
-    margin:0;
-    font-size:0.8em;
-}
 
 
 
@@ -186,6 +173,13 @@ hr{
     .a2, .a3, .a4
     {
         font-size:3.5vw;
+    }
+    .experiencehead{
+        font-size:1.5em;
+    }
+    .experiencetext{
+        margin:0;
+        font-size:0.8em;
     }
     
 
