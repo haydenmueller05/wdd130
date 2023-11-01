@@ -84,11 +84,11 @@ hr{
 
 
 /* About text */
-#about{
+#infoabout{
     margin-top:2%;
     margin-bottom:2%;
 }
-#about p{
+#infoabout p{
     margin:0;
 }
 
@@ -109,6 +109,24 @@ hr{
     margin-bottom:1%;
     text-align: center;
 }
+
+
+/* About */
+
+#aboutcontent{
+    text-align: center;
+}
+.mepicture{
+    width:20%;
+}
+
+
+
+
+
+
+
+
 
 
 
