@@ -232,14 +232,19 @@ hr{
     }
     #abouttext{
         margin-right:5%;
-        margin-left:0%;
+        margin-left:5%;
     
     }
     #abouttext h1{
         margin:0; 
+        font-size:1.5em;
+    
     }
     #abouttext p{
         margin:0;
-    
+        font-size:0.8em;
+    }
+    #aboutp p{
+        margin-left:5%;
     }
 }
