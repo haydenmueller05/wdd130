@@ -1,0 +1,66 @@
+
+body{
+    background-color: black;
+    
+}
+main{
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:5%;
+    
+}
+.card{
+    
+    background-color: white;
+    max-width:300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.weeks{
+    margin:0;
+    margin-top:0;
+    color:rgb(92, 83, 150)
+}
+.post{
+    margin:0;
+}
+.text{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.text{
+    font-size:1.2em;
+    
+}
+
+
+#grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid   ;
+    align-items: center ;
+    text-align: center;
+    background-color:rgb(92, 83, 150);
+    color:white;   
+    font-weight: 200    ;
+}
+#grid1{
+    columns: 1/2;
+    
+}
+#grid1 {
+    margin: 0;
+}
+#grid
+#grid2{
+    columns: 2/3;
+    border: 2px solid white;
+    border-top:none;
+    border-bottom:none;
+    
+}
+#grid3{
+    column-gap: 3/3;
+}
