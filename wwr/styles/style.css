@@ -197,7 +197,9 @@ main section img {
 
 /* rivers css */
 
-
+#content{
+    text-align: center;
+}
 
 /* river section */
 #rivers{
@@ -208,19 +210,27 @@ main section img {
 
 }
 
-#undercontent{
+#undercontent, #undercontent1, #undercontent2{
     margin-left:15%;
     margin-right:15%;
 }
+#textsub, #textsub1, #textsub2{
+    text-align: center;
+}
+
+
 
 .riverpic{
     float:right;
     margin:3%;
-   margin-top:0;
-    
+    margin-top:0;
+    width:30%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
-#textsub{
-    text-align: center;
+.riverpic:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 /* faq */
@@ -230,10 +240,20 @@ main section img {
 .faqpic{
     float:left;
     margin:3%;
-   margin-top:0;
+    margin-top:0;
+    width:30%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.faqpic:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
-/*  */
+
+
+
+/* blog */
 #blog{
     margin-bottom:15%; 
 }
@@ -242,8 +262,15 @@ main section img {
     float:right;
     margin:3%;
     margin-top:0;
+    width:30%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
+.blogpic:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 
 
 
@@ -268,10 +295,11 @@ main section img {
 
 
 @media screen and (max-width: 900px) {
-    .riverpic{
+    .riverpic, .blogpic, .faqpic{
         float:none;
         margin:0;
         margin-top:0;
+        width:90%;
         
     }
     #hero, .home-grid {
