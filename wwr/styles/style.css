@@ -12,7 +12,7 @@
 }
 
 #content{
-    max-width: 1600px;
+    max-width: 1920px;
     margin: 0 auto;
     
 }
@@ -199,6 +199,52 @@ main section img {
 
 
 
+/* river section */
+#rivers{
+    margin-bottom:15%;
+}
+.subhead{
+    text-align: center;
+
+}
+
+#undercontent{
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.riverpic{
+    float:right;
+    margin:3%;
+   margin-top:0;
+    
+}
+#textsub{
+    text-align: center;
+}
+
+/* faq */
+#faq{
+    margin-bottom:15%;  
+}
+.faqpic{
+    float:left;
+    margin:3%;
+   margin-top:0;
+}
+
+/*  */
+#blog{
+    margin-bottom:15%; 
+}
+
+.blogpic{
+    float:right;
+    margin:3%;
+    margin-top:0;
+}
+
+
 
 
 
@@ -222,6 +268,12 @@ main section img {
 
 
 @media screen and (max-width: 900px) {
+    .riverpic{
+        float:none;
+        margin:0;
+        margin-top:0;
+        
+    }
     #hero, .home-grid {
         display: block;
         height: auto;
