@@ -134,7 +134,7 @@ hr{
     font-size:2.5em
 }
 #abouttext p{
-    font-size:1em;
+    font-size:1.8em;
 }
 
 
@@ -246,5 +246,6 @@ hr{
     }
     #aboutp p{
         margin-left:5%;
+        
     }
 }
