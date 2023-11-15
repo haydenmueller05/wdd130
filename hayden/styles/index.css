@@ -49,7 +49,7 @@ hr{
     text-decoration: none;
     color:white;
 }
-#nav_bar{
+/* #nav_bar{
     margin-left:1%;
     width:18%;
     line-height:25px;
@@ -58,16 +58,16 @@ hr{
 #nav_bar a{
   margin:5px;
   font-size:1;
-}
+} */
 
 /* Dropdown */
 
+/* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
-    align-items: center;
-    margin:0;
+    font-weight:100;
+    font-style: normal;
+    width:18%;
   }
   
   /* Links inside the navbar */
@@ -76,23 +76,24 @@ hr{
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2px 16px; 
     text-decoration: none;
   }
   
   /* The dropdown container */
   .dropdown {
-    float: right;
+    float: left;
     overflow: hidden;
   }
   
   /* Dropdown button */
   .dropdown .dropbtn {
-    font-size: 1em;
-    font-weight: 200;
+    font-size:1em;
+    font-style: normal;
     border: none;
     outline: none;
     color: white;
+    padding: 2px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
@@ -100,7 +101,7 @@ hr{
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #2a2a2a;
+    background-color: #2f2e2e;
   }
   
   /* Dropdown content (hidden by default) */
@@ -125,18 +126,13 @@ hr{
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #202020;
+    background-color: #2f2e2e;
   }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
-
-
-
-
 
 
 
