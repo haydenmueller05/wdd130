@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayden | Home </title>
+    <link href="styles/index.css" rel ="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+        input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+        }
+
+        /* Style the submit button with a specific background color etc */
+        input[type=submit] {
+        background-color:#2f2e2e ;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+
+        /* When moving the mouse over the submit button, add a darker green color */
+        input[type=submit]:hover {
+        background-color: #474545;
+        }
+
+        /* Add a background color and some padding around the form */
+        .container {
+        border-radius: 5px;
+        background-color:inherit;
+        padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- HEADER DIV -->
+        <div id="header">
+
+            <!-- LEFT NAVIGATION BUTTONS -->
+            <!-- <div id="nav_bar">
+                <a class="course" href="index.html">HOME</a>
+                <a class="contact" href="about.html">CONTACT</a>
+                
+            </div> -->
+            <div class="navbar">
+                <div class="othertext">
+                    <a class="ahome" href="index.html">Home</a>
+                    <a class="acont" href="contact.html">Contact</a>
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">More
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="projects.html">Projects</a>
+                    <a href="#">Resume</a>
+                    <a href="#">Blog</a>
+                  </div>
+                </div>
+              </div>
+            <!-- MIDDLE MAIN HEADER -->
+            <div id="headertext">
+                <a class="header" href="index.html"><h1>HAYDEN</h1></a>
+            </div> 
+
+            <!-- RIGHT ACCOUNT IMAGE -->
+            <div id="account">
+                <a class="account" href="account.html"><img src="images/account.png" alt=""> </a>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div id="contactcontent">
+            <div id="leftcont">
+                <div class="container">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="lname">Email</label>
+                      <input type="text" id="email" name="email" placeholder="Your Email...">
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+            </div>
+            <div id="rightcont">
+                <img src="images/insta.png" alt="insta">
+                <p>Instagram</p>
+                <img src="images/email.png" alt="email">
+                <p>Email</p>
+                <img src="images/facebook.png" alt="facebook">
+                <p>Facebook</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div id="footer">
+            <div id="footinfo">
+                <a class="ahome" href="index.html">Home</a>
+                <a class="acont" href="contact.html">Contact</a>
+                <a class="plan" href="index.html">Site Plan</a>
+            </div>
+            <div id="foothead">
+                <h1>HAYDEN</h1>
+            </div>
+            <div id="footsocials">
+                <img src="images/facebook.png" alt="facebook">
+                <img src="images/email.png" alt="email">
+                <img src="images/insta.png" alt="insta">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

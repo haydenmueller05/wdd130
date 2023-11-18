@@ -268,18 +268,46 @@ hr{
     margin:1%;
     margin-top:0;
 }
-
-#refbox2 h1{
-    text-align: right;
+#references img{
+    padding:2px;
+    background-color: white;
 }
+
 .reftext1 p, .reftext2 p, .reftext3 p{
-    font-size:1.3em;
+    font-size:1.1em;
     margin:0;
     
+}
+#refbox2 h1{
+    text-align: right;
 }
 .reftext2 p{
     text-align: right;
 }
+
+
+
+
+/* Contact us Page */
+#leftcont{
+    margin-left:10%;
+    width:40%;
+    float:left;
+}
+
+
+#rightcont{
+    margin-right:10%;
+    text-align:right;
+}
+#contactcontent{
+    margin-bottom:12%;
+}
+
+
+
+
+
 
 
 
@@ -289,6 +317,7 @@ hr{
     display:flex;
     align-items: center;
     justify-content:space-between;
+    text-align: center;
 }
 #footinfo{
     width:18%;
@@ -296,22 +325,26 @@ hr{
 #footinfo a{
    color:white;
    text-decoration: none;
-   font-size:1.5em;
+   font-size:2em;
    text-align:right;
+   margin-left:15%;
+   margin-right:15%;
+   
 }
 
 
 
 #foothead h1{
-    font-size:12em;
+    font-size:7em;
     margin:0;
 }
 #footsocials{
     width:18%;
 }
 #footsocials img{
-    width:30%;
+    width:20%;
     text-align: right;
+    margin:5%;
 }
 
 
@@ -319,7 +352,39 @@ hr{
 
 @media screen and (max-width:700px)
 {
+    #foothead h1{
+        font-size:3em;
+        margin:0;
+    }
+    #footinfo a{
+        font-size:0.5em
+    }
+
+
+
+    #refbox1 h1, #refbox2 h1, #refbox3 h1{
+        margin:3%;
+    }
+    #refbox2 h1{
+        text-align: center;
+        
+    }
+    .reftext2 p{
+        text-align: center;
+    }
     
+    #refbox1, #refbox2, #refbox3{
+        margin-left:1%;
+        margin-top:1%;
+        margin-right:1%;
+        text-align: center;
+    }
+    #refbox1 img, #refbox2 img, #refbox3 img{
+        float:none;
+        width:50%;
+        
+    }
+
     .othertext a,.dropdown .dropbtn{
         padding-left:0;
         margin-left:0;
