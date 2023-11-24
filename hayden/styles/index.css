@@ -177,7 +177,7 @@ hr{
 }
 
 /* HEADER BOXES */
-#head-box h1{
+#head-box1 h1,#head-box2 h1,#head-box3 h1{
     font-size: 3em;
     margin:0;
     margin-top:1%;
