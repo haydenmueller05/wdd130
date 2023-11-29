@@ -300,8 +300,18 @@ hr{
     margin-right:10%;
     text-align:right;
 }
+#rightcont img{
+    width:10%;
+}
+
 #contactcontent{
     margin-bottom:12%;
+}
+#rightfacebook img{
+    float:right;
+}
+#rightfacebook p{
+    font-size:3em;
 }
 
 
