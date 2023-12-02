@@ -298,23 +298,39 @@ hr{
 
 #rightcont{
     margin-right:10%;
+    margin-left:50%;
     text-align:right;
+    padding-top:1%;
 }
 #rightcont img{
-    width:10%;
+    width:12%;
 }
 
 #contactcontent{
-    margin-bottom:12%;
+    margin-bottom:17%;
 }
 #rightfacebook img{
     float:right;
+    margin-left:1%;
 }
 #rightfacebook p{
-    font-size:3em;
+    font-size:4em;
 }
-
-
+#rightemail img{
+    float:right;
+    margin-left:1%;
+}
+#rightemail p{
+    font-size:4em;
+}
+#rightinsta img{
+    float:right;
+    margin-left:1%;
+}
+#rightinsta p{
+    font-size:4em;
+    
+}
 
 
 
