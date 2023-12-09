@@ -332,9 +332,50 @@ hr{
     
 }
 
+/* Project page */
+#projh1{
+    font-size:4em;
+    text-align: center;
+    margin-top:1%;
+}
+#projectcont{
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:8%;
+}
+
+
+#proj1 img, #proj3 img{
+    width:20%;
+    float:left;
+    margin:1%;
+    margin-top:0;
+}
+#proj1, #proj3{
+    margin-bottom:15%;
+}
+#proj1 p, #proj3 p{
+    font-size:1.3em;
+}
 
 
 
+#proj2 img, #proj4 img{
+    width:20%;
+    float:right;
+    margin:1%;
+    margin-top:0;
+}
+#proj2, #proj4{
+    margin-bottom:15%;
+}
+#proj2 h1, #proj4 h1{
+    text-align:right;
+}
+#proj2 p, #proj4 p{
+    text-align: right;
+    font-size:1.3em;
+}
 
 
 /* Footer */
