@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+
+    <script src= "main.js" ></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="dropdown">
+              <button class="dropbtn"><img class="swole-img" src="images/swole.png" alt="swole">
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="tracker.html">Tracker</a>
+                <a href="calc.html">Calculator</a>
+                <a href="#">About us</a>
+                <a href="#">Profile</a>
+              </div>
+            </div>
+            <p class="header">gitSWOLE</p>
+          </div>
+    </header>
+    <div class="info-msg" style="text-align:center;width: 300px;margin: 0 auto";>
+        <label class="exerciseform" for="gender">Gender:</label>
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+        <label class="exerciseform" for="age">Age:</label>
+        <input type="text" id="age"><br>
+        <label class="exerciseform" for="weight">Weight (kg):</label>
+        <input type="text" id="weight"><br>
+        <label class="exerciseform" for="height">Height (cm):</label>
+        <input type="text" id="height"><br>
+        <label class="exerciseform" for="activity">Activity Level:</label>
+            <select id="activity">
+                <option value="1.2">Sedentary</option>
+                <option value="1.375">Lightly Active</option>
+                <option value="1.55">Moderately Active</option>
+                <option value="1.725">Very Active</option>
+                <option value="1.9">Super Active</option>
+            </select><br>
+  <button onclick="calculateCalories()">Calculate Daily Calories</button><br>
+  <p style="font-size:20px">Your estimated daily calorie intake is: <span id="result"></span> calories</p>
+</div>
+   <!-- <div class="weightgoals">
+        <h1>Goals</h1>
+        <button id="lose" onclick="showInfo('loseinfo')">Lose Weight</button>
+        <button id="maintain" onclick="showInfo('maintaininfo')">Maintain Weight</button>
+        <button id="gain" onclick="showInfo('gaininfo')">Gain Weight</button>
+
+        <div id="loseinfo" class="info">
+            <h3>Lose Weight</h3>
+            <p>.5</p>
+            <p>1</p>
+            <p>2</p>
+
+        </div>
+        <div id="maintaininfo" class="info">
+            <h3>Maintain</h3>
+            <p>calories to maintain weight</p>
+
+        </div>
+        <div id="gaininfo" class="info">
+            <h3>Gain Weight</h3>
+            <p>.5</p>
+            <p>1</p>
+            <p>2</p>
+        </div>
+
+    <script>
+        function showInfo(infoId) {
+            var infoElements = document.querySelectorAll('.info');
+            var buttonElements = document.querySelectorAll('button');
+
+            // Hide all info elements
+            infoElements.forEach(function (element) {
+                element.style.display = 'none';
+            });
+
+            // Disable all buttons
+            buttonElements.forEach(function (element) {
+                element.disabled = false;
+            });
+
+            // Show the selected info element
+            document.getElementById(infoId).style.display = 'block';
+
+            // Disable the clicked button
+            document.getElementById('button' + infoId.slice(-1)).disabled = true;
+        }
+        
+    </script>-->
+
+
+
+    <sript src= "main.js" ></sript>
+</body>
+</html>

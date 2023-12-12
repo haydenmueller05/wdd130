@@ -210,6 +210,7 @@ hr{
 }
 #abouttext p{
     font-size:1.5em;
+    line-height:1.2em;
 }
 
 
@@ -227,7 +228,7 @@ hr{
 /* TEXT PROPERTIES */
 #experience{
     text-align: center;
-    margin-bottom:2;
+    margin-bottom:2%;
 }
 
 
@@ -236,7 +237,9 @@ hr{
     margin-top:1%;
     margin-bottom:1%;
 }
-
+#experience-info p{
+    line-height:1.4em
+}
 /* EXPERIENCE INFO*/
 .experiencehead{
     font-size:2.5em;
@@ -244,13 +247,16 @@ hr{
 .experiencetext{
     margin:0;
     font-size:1.5em;
-
+    
 }
 
 
 
 /* REFERENCES SECTION */
 
+#refbox1{
+    margin-top:3%;
+}
 #refbox1, #refbox2, #refbox3{
     margin-left:10%;
     margin-right:10%;
@@ -318,7 +324,8 @@ hr{
 }
 #rightemail img{
     float:right;
-    margin-left:1%;
+    width:11%;
+    margin-left:2%;
 }
 #rightemail p{
     font-size:4em;
@@ -329,8 +336,16 @@ hr{
 }
 #rightinsta p{
     font-size:4em;
-    
 }
+.iconpic{
+    transition: transform .5s;
+}
+.iconpic:hover{
+    opacity:0.8;
+    transform: scale(1.1)
+}
+
+
 
 /* Project page */
 #projh1{
@@ -346,10 +361,13 @@ hr{
 
 
 #proj1 img, #proj3 img{
+    
     width:20%;
     float:left;
     margin:1%;
     margin-top:0;
+    padding:2px;
+    background-color: white;
 }
 #proj1, #proj3{
     margin-bottom:15%;
@@ -357,7 +375,13 @@ hr{
 #proj1 p, #proj3 p{
     font-size:1.3em;
 }
-
+.proj-img{
+    transition: transform .5s;
+}
+.proj-img:hover{
+    transform: scale(1.05);
+    opacity: .8;
+}
 
 
 #proj2 img, #proj4 img{
@@ -365,6 +389,8 @@ hr{
     float:right;
     margin:1%;
     margin-top:0;
+    padding:2px;
+    background-color: white;
 }
 #proj2, #proj4{
     margin-bottom:15%;
@@ -427,8 +453,23 @@ hr{
         font-size:0.5em
     }
 
-
-
+    #proj1 img{
+        float:none;
+        width:80%;
+    }
+    #proj1{
+        text-align: center;
+    }
+    #proj2 img{
+        float:none;
+        width:80%;
+    }
+    #proj2{
+        text-align: center;
+    }
+    #proj2 p, #proj2 h1{
+        text-align: center;
+    }
     #refbox1 h1, #refbox2 h1, #refbox3 h1{
         margin:3%;
     }
