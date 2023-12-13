@@ -445,6 +445,23 @@ hr{
 
 @media screen and (max-width:700px)
 {
+    #leftcont{
+        margin-left:10%;
+        width:80%;
+        float:none;
+    }
+    #rightcont{
+        margin-right:10%;
+        margin-left:10%;
+        text-align:center;
+        padding-top:1%;
+    }
+    #rightinsta img, #rightemail img, #rightfacebook img{
+        float:none;
+        margin-left:1%;
+        width:40%;
+        margin:0;
+    }
     #foothead h1{
         font-size:3em;
         margin:0;
