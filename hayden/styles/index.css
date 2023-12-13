@@ -462,6 +462,11 @@ hr{
         width:40%;
         margin:0;
     }
+    #rightinsta p, #rightemail p, #rightfacebook p{
+        text-align: center;
+        margin:0;
+        margin-bottom:10%;
+    }
     #foothead h1{
         font-size:3em;
         margin:0;
